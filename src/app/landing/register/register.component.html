@@ -1,0 +1,21 @@
+<div class="body-container">
+    <!-- <img class="background-img" src={{background_img}} /> -->
+    <div class="form-container" id="abc1">       
+        <form  class="form-inline">
+            <h2><b>Sign Up <span>Now!</span></b></h2>
+            <input class="insetreg" placeholder="Username" type="text" name="UserName" id="UserName"><br/><br/>
+            <input class="insetreg"  name="Email" type="text" placeholder="Email Address"><br/><br/>
+            <input class="insetreg"  name="password" type="password" placeholder="Password" ><br/><br/>
+            <button class="btn2">Student</button>&nbsp;&nbsp;
+            <button class="btn1">Professional</button>
+            
+            <button class="btn3" (click)="signup()">Sign Up</button>
+        </form>
+    </div>
+
+</div>
+   
+<!--   
+#userRegistrationForm="ngForm" (ngSubmit)="OnSubmit(userRegistrationForm)"   -->
+<!-- 
+[(ngModel)]="user.password" -->

@@ -1,0 +1,95 @@
+
+      .body-container{
+        top: 0px;
+        left: 0px;
+        width: 1366px;
+        height: 600px;
+        z-index: -1;
+        background: url("Landing.svg");
+        background-position-x: 0px;
+        background-position-y: 0px;
+        /* background-attachment: fixed; */
+        overflow-x: hidden;
+      }
+/* 
+      .background-img{
+        position: absolute;
+        top: 0px;
+        left: -150px;
+        width: 1366px;
+        height: 600px;
+        z-index: -1;
+      } */
+      
+    .insetreg{
+        top: 328px;
+        left: 875px;
+        width: 270px;
+        height: 37px;
+        background: #F2EFEF 0% 0% no-repeat padding-box;
+        box-shadow: 0px 0px 9px #00000029;
+        border: 0.5px solid #393838;
+        border-radius: 15px;
+        opacity: 1;
+        padding:20px;
+
+    }
+
+
+    .form-inline{
+      margin-top: 100px;
+      margin-left: 875px;
+    }
+
+    h2{
+      font-size: 42px;
+    }
+    span{
+      color: rgb(255, 2, 99);
+    }
+
+    .btn2{ 
+		
+      font-family:'Voltaire',sans-serif;
+      color: white;
+    
+      border-radius: 15px;
+      width: 125px;
+      height: 45px;
+      
+      text-align: center;background: #F0654C 0% 0% no-repeat padding-box;
+      }
+      
+      .btn1{ 
+        
+        font-family:'Voltaire',sans-serif;
+        color: white;
+        border-radius: 15px;
+        width: 125px;
+        height: 45px;
+        text-align: center;
+        background-color: #DE2175}
+      
+        .btn3{
+          font-family:'Voltaire',sans-serif;
+          color: white;
+          top: 10px;
+          border-radius: 15px;
+          width: 125px;
+          height: 45px;
+          text-align: center;
+          background-color: #DE2175
+        }
+      
+        .btn2:focus,.btn1:focus, .btn2:active, .btn1.active, .insetreg:active,.btn2:focus:active,.btn1:focus:active {
+          background-image: none;
+          outline: none;
+          -moz-box-shadow: none;
+          -webkit-box-shadow: none;
+          box-shadow:none     }
+      
+          input[type="text"],input[type="password"], textarea {
+          outline: none;
+          box-shadow:none !important;
+           
+          }
